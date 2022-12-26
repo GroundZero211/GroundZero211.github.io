@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+.container > .header-section {
+    padding: 10px 20% 10px 20%;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo {
+    color: f9faf8;
+    font-weight: bold;
+    
+}
+.header-links > a {
+    text-decoration: none;
+    color: #e5e7eb;
+    padding: 0 10px 0 10px;
+}
+
+/* ------------------------------------------ */
+
+.hero-section1 {
+    display: flex;
+    background-color: #1f2932;
+    color: #e5e7eb;
+    justify-content: space-between;
+    padding: 50px 20% 50px 20%;
+}
+.button {
+    text-decoration: none;
+    color: inherit;
+    background-color: #3882f6;
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.i-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.i-2 > span {
+    background-color: rgb(185, 185, 185);
+    padding: 60px 100px 60px 100px;
+    color: #e5e7eb;
+}
+
+/* ------------------------------------------ */
+
+.hero-section2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20% 10px 20%;
+    justify-content: center;
+}
+
+.hero-section2 > .flex-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.hero-section2 > h2 {
+    text-align: center;
+    color: #1f2937;
+}
+
+.hero-section2 > .flex-container > .flex-items {
+    width: 150px;
+}
+
+.hero-section2 > .flex-container > .flex-items > .boxes {
+    border: 3px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+/* ------------------------------------------ */
+
+.hero-section3 {
+    background-color: #e5e7eb;
+}
+
+.hero-section3 > .q-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+}
+
+.hero-section3 > .q-container > p {
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    width: 1000px;
+}
